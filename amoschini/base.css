@@ -1,0 +1,152 @@
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: #333333;
+  padding: 100px 0 0 100px;
+}
+/* STRUCTURE */
+/* main {
+} */
+article {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* section {
+
+}
+article {
+  padding-bottom: 100px;
+  max-width: 620px;
+}
+article h5 {
+  padding-bottom: 24px;
+} */
+.kicker {
+    font-size: 22px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 28px;
+    font-weight: 400;
+}
+.calendarItem-big {
+  padding: 40px 35px;
+  position: relative;
+}
+.calendarItem-big .calendarItemNumber {
+  margin-bottom: 58px;
+}
+.calendarItem-medium {
+  padding: 30px 35px;
+  position: relative;
+}
+.calendarItem-small {
+  padding: 25px;
+  position: relative;
+}
+.calendarItem-medium .calendarItemNumber,
+.calendarItem-small .calendarItemNumber {
+  margin-bottom: 35px;
+}
+.calendarItem-medium h5,
+.calendarItem-small h5 {
+  color: #ffffff;
+}
+.footer-content {
+  padding-right: 100px;
+  justify-self: start;
+}
+.footer-content h5 {
+  padding-bottom: 70px;
+}
+.footer-content h3 {
+  padding: 15px 5px;
+}
+.slack {
+  align-self: end;
+}
+/* HEADINGS */
+h1,
+.calendarItemName,
+p,
+.calendarItemNumber {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-break: break-word;
+}
+
+h1 {
+  font-size: 70px;
+  color: #333333;
+  letter-spacing: -1px;
+  line-height: 76px;
+  font-weight: 200;
+}
+.calendarItemName {
+  color: #FFFFFF
+}
+p {
+  font-size: 18px;
+  color: #333333;
+  letter-spacing: 0;
+  line-height: 26px;
+  font-weight: 400;
+}
+.calendarItemNumber {
+  font-size: 12px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 16px;
+  font-weight: 700;
+  display: block;
+}
+a {
+  color: #fbb224;
+  text-decoration: none;
+}
+a:hover {
+  color: #e58900;
+}
+/* BACKGROUNDS COLORS*/
+.calendarItem-yellow {
+  background-color: #fbb224;
+}
+.calendarItem-violet {
+  background-color: #b787c6;
+}
+.calendarItem-grey {
+  background-color: #333333;
+}
+/* BOX - SCHEDULE HOVER*/
+.calendarItem:hover .calendarSchedule {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+}
+.calendarSchedule {
+  display: none;
+  background: rgba(255, 255, 255, 0.95);
+  min-height: 90%;
+  align-items: center;
+  padding: 0 7%;
+}
+.calendarSchedule small {
+  color: #333333;
+  margin: 0;
+}
+button {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 700;
+  color: #333333;
+  padding: 14px;
+  border: 1px solid #333333;
+  cursor: pointer;
+  margin-top: 24px;
+}
+button:hover {
+  background: rgba(51, 51, 51, 0.2);
+}
